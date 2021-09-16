@@ -1,0 +1,11 @@
+{
+  "name": "Laser cut Settings",
+  "Settings": {
+      "power": 1.6,
+      "voltaje": 110,
+      "power_consumption_all": 0.35,
+      "lighting_energy_consumptio": 0.18,
+      "power_cost": 0.09,
+      "power_cost_in_one_hour": 0.18
+  }
+}

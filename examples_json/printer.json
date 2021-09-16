@@ -1,0 +1,16 @@
+{
+  "name": "3d Printer Settings",
+  "Settings": {
+    "pla_cost": 30,
+    "energy": 0.09,
+    "power_printer": 0.89,
+    "printer_cost": 550,
+    "amortization": 1,
+    "active_days": 250,
+    "hours_in_day": 8,
+    "fail_percent": 10,
+    "operator_cost_by_hour": 5,
+    "preparation_time": 1.2,
+    "post_processed_time": 1.2
+  }
+}
