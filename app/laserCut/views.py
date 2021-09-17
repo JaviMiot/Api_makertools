@@ -1,5 +1,6 @@
 from flask import request, jsonify
 from . import laserCut_App
+import json
 from app.library import LaserCutDB
 
 db_Laser = LaserCutDB()
@@ -12,4 +13,4 @@ def get_settings():
         return jsonify(Updated=db_Laser.update_laserCut_settings(request.json)), 200
 
     laser_cut_settings = db_Laser.get_laserCut_settings()
-    return laser_cut_settings
+    return jsonify(json.loads(laser_cut_settings))
