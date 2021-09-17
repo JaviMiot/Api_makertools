@@ -1,3 +1,4 @@
 init.bash
+production.bash
 .env
 /__pycache__

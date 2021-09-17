@@ -1,1 +1,1 @@
-web: source production.bash
+web: python main.py
